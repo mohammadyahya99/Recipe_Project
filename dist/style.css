@@ -34,6 +34,7 @@ ul {
 
 #recipesTitle {
   text-align: center;
+
   font-size: x-large;
   border-radius: 5px;
   background-color: rgb(255, 145, 0);
@@ -51,5 +52,10 @@ ul {
   background-color: bisque;
 }
 h5 {
+  text-decoration: none;
   font-size: larger;
+}
+a {
+  text-decoration: none;
+  color: black;
 }

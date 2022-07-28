@@ -22,7 +22,7 @@
     <script id="handelTemp" type="text/x-handlebars-template">
       {{#each recipes}}
         <div class="recipe">
-          <p id="recipesTitle">{{title}}</p>
+          <a href="{{href}}"> <p id="recipesTitle">{{title}}</p></a>
           <img class="Imgitem" id="pictures" src={{thumbnail}} />
           <p>
             <h5>The ingredients :</h5>
@@ -34,8 +34,6 @@
               {{/each}}
             </ol>
           </p>
-          <h5> youtube Link:</h5>
-          <a href="{{href}}">{{href}}</a>
 
         </div>
       {{/each}}
