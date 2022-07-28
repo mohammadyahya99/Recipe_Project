@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(239, 214, 141);
+}
+
+#searchInput {
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.searchButton {
+  background-color: rgb(255, 145, 0);
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: large;
+}
+.searchButton:hover {
+  background-color: rgb(243, 162, 56);
+}
+
+#mainContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#recipesTitle {
+  text-align: center;
+  font-size: x-large;
+  border-radius: 5px;
+  background-color: rgb(255, 145, 0);
+}
+
+#pictures {
+  margin-left: 120px;
+  width: 250px;
+  height: 150px;
+  margin-left: 85px;
+  border-radius: 50px;
+}
+
+.recipe {
+  background-color: bisque;
+}
+h5 {
+  font-size: larger;
+}
